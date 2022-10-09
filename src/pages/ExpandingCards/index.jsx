@@ -11,7 +11,6 @@ function ExpandingCards() {
         <div className="expandingCardsBox">
             {arr.map((v, i) => {
                 return <div className={`item ${num == i ? 'active' : ''}`} key={i} onClick={() => { onChange(i) }} style={{ backgroundImage: `url(${require('../../assets/yay.jpg')})` }}>
-                    {/* <img src={require('../../assets/yay.jpg')} alt="" /> */}
                 </div>
             })}
         </div>
