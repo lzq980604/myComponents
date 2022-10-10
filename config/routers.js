@@ -6,6 +6,7 @@ export default [
             { path: '/', title: 'home', component: '@/pages/Home' },
             { path: '/expandingCards', title: 'expandingCards', component: '@/pages/ExpandingCards' },
             { path: '/progressSteps', title: 'progressSteps', component: '@/pages/ProgressSteps' },
+            { path: '/rotatingNavigation', title: 'rotatingNavigation', component: '@/pages/RotatingNavigation' },
         ]
     },
 

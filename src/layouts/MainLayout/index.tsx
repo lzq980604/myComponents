@@ -15,6 +15,9 @@ export default function Layout() {
         <li>
           <Link to="/progressSteps">progressSteps</Link>
         </li>
+        <li>
+          <Link to="/rotatingNavigation">rotatingNavigation</Link>
+        </li>
       </ul>
       <Outlet />
     </div>
