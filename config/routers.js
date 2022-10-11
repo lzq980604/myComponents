@@ -8,6 +8,7 @@ export default [
             { path: '/progressSteps', title: 'progressSteps', component: '@/pages/ProgressSteps' },
             { path: '/rotatingNavigation', title: 'rotatingNavigation', component: '@/pages/RotatingNavigation' },
             { path: '/hiddenSearchWidget', title: 'hiddenSearchWidget', component: '@/pages/HiddenSearchWidget' },
+            { path: '/eventKeyCodes', title: 'eventKeyCodes', component: '@/pages/EventKeyCodes' },
         ]
     },
 

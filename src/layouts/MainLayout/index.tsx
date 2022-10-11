@@ -26,6 +26,9 @@ export default function Layout() {
             <li>
               <Link to="/hiddenSearchWidget">hiddenSearchWidget</Link>
             </li>
+            <li>
+              <Link to="/eventKeyCodes">eventKeyCodes</Link>
+            </li>
           </ul>
         </div>
         <div className={styles.right}>
