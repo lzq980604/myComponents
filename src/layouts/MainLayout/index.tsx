@@ -29,6 +29,9 @@ export default function Layout() {
             <li>
               <Link to="/eventKeyCodes">eventKeyCodes</Link>
             </li>
+            <li>
+              <Link to="/slideBtn">slideBtn</Link>
+            </li>
           </ul>
         </div>
         <div className={styles.right}>

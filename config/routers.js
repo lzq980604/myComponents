@@ -9,6 +9,7 @@ export default [
             { path: '/rotatingNavigation', title: 'rotatingNavigation', component: '@/pages/RotatingNavigation' },
             { path: '/hiddenSearchWidget', title: 'hiddenSearchWidget', component: '@/pages/HiddenSearchWidget' },
             { path: '/eventKeyCodes', title: 'eventKeyCodes', component: '@/pages/EventKeyCodes' },
+            { path: '/slideBtn', title: 'slideBtn', component: '@/pages/SlideBtn' },
         ]
     },
 
