@@ -16,7 +16,7 @@ function SlideBtn() {
             <div className={`${styles.btnBox}`}
                 style={{
                     '--groove-left': `calc(${!flag ? 0 * 50 : 1 * 50}% + 12px)`,
-                    '--wraper-rotate': `${!flag ? -8 : 8}deg`,
+                    '--wraper-rotate': `${!flag ? -10 : 10}deg`,
                 }}
                 ref={rotateRef}
             >

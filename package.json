@@ -11,6 +11,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.23.4",
+    "sakana-widget": "^2.3.2",
     "umi": "^4.0.24"
   },
   "devDependencies": {

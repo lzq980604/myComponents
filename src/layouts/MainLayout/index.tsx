@@ -1,8 +1,12 @@
 import { Link, Outlet } from 'umi';
 import 'antd/dist/antd.less'
 import styles from './index.less';
+import SakanaWidget from 'sakana-widget';
+import { useState, useEffect } from 'react'
 export default function Layout() {
-
+  useEffect(() => {
+    new SakanaWidget({ controls: false, rotate: 0 }).mount('#sakana-widget');
+  }, [])
   return (
     <div className={styles.navs}>
       <header>
@@ -33,6 +37,9 @@ export default function Layout() {
               <Link to="/slideBtn">slideBtn</Link>
             </li>
           </ul>
+          <div className={styles.ponyoyo}>
+            <div id="sakana-widget"></div>
+          </div>
         </div>
         <div className={styles.right}>
           <Outlet />
