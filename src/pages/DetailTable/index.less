@@ -1,0 +1,49 @@
+.detailTableBox {
+    width: 80%;
+    margin: 0 auto;
+
+    :global {
+        .ant-table-tbody> :first-child> :last-child {
+            background: #f1f1ff;
+            border: 1px solid red;
+        }
+
+        .ant-table-tbody> :first-child> :last-child::after {
+            display: none;
+        }
+    }
+
+    .selectedRow {
+        :global {
+            .ant-table-cell {
+                background-color: #f1f1ff;
+                background: #f1f1ff;
+                border: 1px solid red;
+                border-left: none;
+                border-right: none;
+                position: relative;
+            }
+
+            .ant-table-cell::after {
+                content: ' ';
+                position: absolute;
+                width: 4px;
+                height: 54px;
+                background: #f1f1ff;
+                right: -2px;
+                top: 0px;
+                z-index: 999;
+            }
+
+            .ant-table-cell-row-hover {
+                background-color: #f1f1ff !important;
+                background: #f1f1ff !important;
+            }
+        }
+
+        &:first-child {
+            border-left: 1px solid red;
+            border-radius: 2px 0 0 2px;
+        }
+    }
+}
