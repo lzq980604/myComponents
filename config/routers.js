@@ -11,6 +11,7 @@ export default [
             { path: '/eventKeyCodes', title: 'eventKeyCodes', component: '@/pages/EventKeyCodes' },
             { path: '/slideBtn', title: 'slideBtn', component: '@/pages/SlideBtn' },
             { path: '/detailTable', title: 'detailTable', component: '@/pages/DetailTable' },
+            { path: '/myCountdown', title: 'myCountdown', component: '@/pages/MyCountdown' },
         ]
     },
 

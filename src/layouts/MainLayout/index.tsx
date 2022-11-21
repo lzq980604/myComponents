@@ -39,6 +39,9 @@ export default function Layout() {
             <li>
               <Link to="/detailTable">detailTable</Link>
             </li>
+            <li>
+              <Link to="/myCountdown">myCountdown</Link>
+            </li>
           </ul>
           <div className={styles.ponyoyo}>
             <div id="sakana-widget"></div>
