@@ -45,6 +45,9 @@ export default function Layout() {
             <li>
               <Link to="/rainbowScrollText">rainbowScrollText</Link>
             </li>
+            <li>
+              <Link to="/blackAndWhite">BlackAndWhite</Link>
+            </li>
           </ul>
           <div className={styles.ponyoyo}>
             <div id="sakana-widget"></div>
