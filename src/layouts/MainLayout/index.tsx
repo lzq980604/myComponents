@@ -42,6 +42,9 @@ export default function Layout() {
             <li>
               <Link to="/myCountdown">myCountdown</Link>
             </li>
+            <li>
+              <Link to="/rainbowScrollText">rainbowScrollText</Link>
+            </li>
           </ul>
           <div className={styles.ponyoyo}>
             <div id="sakana-widget"></div>

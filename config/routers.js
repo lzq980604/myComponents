@@ -12,6 +12,7 @@ export default [
             { path: '/slideBtn', title: 'slideBtn', component: '@/pages/SlideBtn' },
             { path: '/detailTable', title: 'detailTable', component: '@/pages/DetailTable' },
             { path: '/myCountdown', title: 'myCountdown', component: '@/pages/MyCountdown' },
+            { path: '/rainbowScrollText', title: 'rainbowScrollText', component: '@/pages/RainbowScrollText' },
         ]
     },
 
