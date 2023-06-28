@@ -6,11 +6,13 @@
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "g": "plop"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.23.4",
+    "plop": "^3.1.2",
     "sakana-widget": "^2.3.2",
     "umi": "^4.0.24"
   },

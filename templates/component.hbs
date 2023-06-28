@@ -1,0 +1,16 @@
+import styles from './index.less';
+import { useState, useEffect } from 'react'
+import { getComClassName } from '@/utils';
+
+function {{name}}(props) {
+const { className } = props;
+const comClassName = getComClassName(styles.comAtomAnimation, className);
+
+return (
+<div className={comClassName.join(',')}>
+
+</div>
+);
+}
+
+export default {{name}};
