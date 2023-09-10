@@ -48,6 +48,9 @@ export default function Layout() {
             <li>
               <Link to="/blackAndWhite">BlackAndWhite</Link>
             </li>
+            <li>
+              <Link to="/useObserver">useObserver</Link>
+            </li>
           </ul>
           <div className={styles.ponyoyo}>
             <div id="sakana-widget"></div>

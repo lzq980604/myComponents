@@ -14,6 +14,7 @@ export default [
             { path: '/myCountdown', title: 'myCountdown', component: '@/pages/MyCountdown' },
             { path: '/rainbowScrollText', title: 'rainbowScrollText', component: '@/pages/RainbowScrollText' },
             { path: '/blackAndWhite', title: 'blackAndWhite', component: '@/pages/BlackAndWhite' },
+            { path: '/useObserver', title: 'useObserver', component: '@/pages/UseObserver' },
         ]
     },
 
