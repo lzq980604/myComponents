@@ -15,6 +15,7 @@ export default [
             { path: '/rainbowScrollText', title: 'rainbowScrollText', component: '@/pages/RainbowScrollText' },
             { path: '/blackAndWhite', title: 'blackAndWhite', component: '@/pages/BlackAndWhite' },
             { path: '/useObserver', title: 'useObserver', component: '@/pages/UseObserver' },
+            { path: '/barrage', title: 'barrage', component: '@/pages/Barrage' },
         ]
     },
 

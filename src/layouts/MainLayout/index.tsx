@@ -51,6 +51,9 @@ export default function Layout() {
             <li>
               <Link to="/useObserver">useObserver</Link>
             </li>
+            <li>
+              <Link to="/barrage">useObserver</Link>
+            </li>
           </ul>
           <div className={styles.ponyoyo}>
             <div id="sakana-widget"></div>
