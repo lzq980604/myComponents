@@ -16,6 +16,7 @@ export default [
             { path: '/blackAndWhite', title: 'blackAndWhite', component: '@/pages/BlackAndWhite' },
             { path: '/useObserver', title: 'useObserver', component: '@/pages/UseObserver' },
             { path: '/barrage', title: 'barrage', component: '@/pages/Barrage' },
+            { path: '/useCountdown', title: 'useCountdown', component: '@/pages/UseCountdown' },
         ]
     },
 

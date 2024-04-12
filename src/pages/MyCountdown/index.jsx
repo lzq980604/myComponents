@@ -1,8 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
+import moment from 'moment';
 import styles from './index.less';
 
+const startTime = moment();
+const endTime = moment().endOf('day');
+
 function MyCountdown(props) {
-    const { callback, start = 0, end = 0, className, render, onChange } = props;
+    const { callback, start = startTime, end = endTime, className, render, onChange } = props;
     const [day, setDay] = useState('0');
     const [hour, setHour] = useState('0');
     const [minute, setMinute] = useState('0');
